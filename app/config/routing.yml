@@ -1,0 +1,15 @@
+ranga_catalog:
+    resource: "@RangaCatalogBundle/Resources/config/routing.yml"
+    prefix:   /
+RangaCatalogBundle_category:
+        resource: "@RangaCatalogBundle/Resources/config/routing/category.yml"
+        prefix:   /category
+RangaCatalogBundle_brand:
+        resource: "@RangaCatalogBundle/Resources/config/routing/brand.yml"
+        prefix:   /brand
+RangaCatalogBundle_product:
+        resource: "@RangaCatalogBundle/Resources/config/routing/product.yml"
+        prefix:   /product
+
+
+

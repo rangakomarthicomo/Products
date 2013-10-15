@@ -1,0 +1,30 @@
+brand:
+    pattern:  /
+    defaults: { _controller: "RangaCatalogBundle:Brand:index" }
+
+brand_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "RangaCatalogBundle:Brand:show" }
+
+brand_new:
+    pattern:  /new
+    defaults: { _controller: "RangaCatalogBundle:Brand:new" }
+
+brand_create:
+    pattern:  /create
+    defaults: { _controller: "RangaCatalogBundle:Brand:create" }
+    requirements: { _method: post }
+
+brand_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "RangaCatalogBundle:Brand:edit" }
+
+brand_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "RangaCatalogBundle:Brand:update" }
+    requirements: { _method: post|put }
+
+brand_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "RangaCatalogBundle:Brand:delete" }
+    requirements: { _method: post|delete }
